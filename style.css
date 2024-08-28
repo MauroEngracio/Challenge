@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.cabecalho {
+    margin: 10px;
+    padding: 10px;
+    width: 2px;
+}
+
+.container {
+  display: flex;
+  gap: 20%;
+  padding: 5%;
+}
+
+.esquerda {
+    margin-left: 15px;
+    padding-left: 20px;
+   
+}
+
+.excbtn {
+    padding: 110px;
+}
+
+.digiteTexto {
+    border: none;
+    color: darkblue;
+    text-transform: lowercase;
+    background-color: transparent;
+    resize: none;
+    padding: 24px;
+    width: 90%;
+;
+}
+
+::placeholder { 
+    color: darkblue;
+}
+
+.digiteTexto:focus {
+        outline: none;
+}
+
+.mensagemResposta {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background: white;
+    position: fixed;
+
+
+}
+.textoResposta {
+    border: none;
+    resize: none;
+}
+
+.imgmoca{
+    background-color: white;
+
+}
+
+.container__criptografia{
+    display: flex;
+    flex-direction: column;
+}
+
+.exclamacao {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+
+}
+
+.exclamacao > img {
+    height: 10px;
+}
+
+
+.botao__criptografar{
+   border-radius: 24px;
+   width: 240px;
+   background-color: darkblue;
+   height: 67px;
+}
+
+.botao__descriptografar{
+    border-radius: 24px;
+    width: 240px;
+    height: 67px;
+}
+
+
+.rodape{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    position: relative;
+
+}
